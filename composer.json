@@ -1,0 +1,22 @@
+{
+    "name": "simpletree/yii2phpconsole",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "*",
+        "php-console/php-console": "*"
+    },
+    "description": "Php-console extension for Yii 2.",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Jakob Rosenberg",
+            "email": "jakobrosenberg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Simpletree\\Phpconsole\\": "src/"
+        }
+    }
+}
+
