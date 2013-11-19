@@ -11,7 +11,7 @@ Installation
 ```
 {
   "require": {
-      "php-console/php-console": "dev-master"
+      "simpletree/yii2phpconsole": "dev-master"
   }
 }
 ```
