@@ -33,7 +33,7 @@ class Phpconsole extends \yii\base\Component{
         $this->_handler = \PhpConsole\Handler::getInstance();
 
         if($this->registerGlobal){
-            \PhpConsole\Helper::register();
+            \PhpConsole\Helper::register($this->_connector);
         }
 
         if($this->password){
