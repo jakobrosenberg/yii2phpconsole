@@ -30,10 +30,10 @@ class Phpconsole extends \yii\base\Component{
     public function init()
     {
         $this->_connector = \PhpConsole\Connector::getInstance();
-        $this->_connector = \PhpConsole\Handler::getInstance();
+        $this->_handler = \PhpConsole\Handler::getInstance();
 
         if($this->registerGlobal){
-            \PhpConsole\Helper::register($this->_connector);
+            \PhpConsole\Helper::register();
         }
 
         if($this->password){
